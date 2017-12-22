@@ -36,6 +36,7 @@ end
 def full?(board)
   board.all? do |token|
     if token == " "
+    end
   end
 end
 # board.each {|num|}
