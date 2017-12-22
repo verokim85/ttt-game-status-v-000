@@ -37,6 +37,8 @@ def full?(board)
   board.all? do |token|
     if token == "X" or token == "O"
       return true
+    else
+      false
     end
   end
 end
