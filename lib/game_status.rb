@@ -33,7 +33,7 @@ def won?(board)
 end
 
 
-def full(board)
+def full?(board)
   board.all? i
   index = i
   if position_taken?(board, index) == "X" || position_taken?(board, index) == "O"
