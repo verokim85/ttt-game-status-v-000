@@ -34,8 +34,7 @@ end
 
 
 def full?(board)
-  board.all? {|x| x = index}
-  if position_taken?(board, index) == "X" || position_taken?(board, index) == "O"
+  board.all? {|x| x == if position_taken?(board, index) == "X" || position_taken?(board, index) == "O"
 end
 end
 # board.each {|num|}
