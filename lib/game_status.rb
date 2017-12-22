@@ -35,7 +35,8 @@ end
 
 def full?(board)
   board.any? do |token|
-     token == " "
+    if token == " "
+      return true
+    else false
   end
-  true
 end
