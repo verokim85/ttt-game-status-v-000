@@ -34,8 +34,7 @@ end
 
 
 def full?(board)
-  board.all? i
-  index = i
+  board.all?
   if position_taken?(board, index) == "X" || position_taken?(board, index) == "O"
      return true
   end
