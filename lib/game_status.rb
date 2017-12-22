@@ -34,7 +34,7 @@ end
 
 
 def full?(board)
-  board.all? do |token|
+  board.any? do |token|
    token == "X" || token == "O"
   end
 end
