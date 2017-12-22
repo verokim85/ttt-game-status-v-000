@@ -33,7 +33,7 @@ def won?(board)
 end
 
 
-def full
+def full(board)
   if won?(board) == false
     return draw
   end
