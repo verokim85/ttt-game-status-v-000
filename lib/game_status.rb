@@ -34,16 +34,7 @@ end
 
 
 def full?(board)
-  board.all? do |token|
-    if token == "X" or token == "O"
-      return true
-    else
-
-    end
+  board.any? do |token|
+     token == " "
   end
 end
-# board.each {|num|}
-# index = num
-# if position_taken?(board, index) == "X" || position_taken?(board, index) == "O"
-#    return true
-# end
