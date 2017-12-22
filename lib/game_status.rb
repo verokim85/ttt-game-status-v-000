@@ -34,10 +34,12 @@ end
 
 
 def full?(board)
-  board.each {|x| x = index}
+  board.each {|x|
+    x = index
   if position_taken?(board, index) == "X" || position_taken?(board, index) == "O"
     return true
-end
+  end
+  end
 end
 # board.each {|num|}
 # index = num
