@@ -34,7 +34,9 @@ end
 
 
 def full(board)
-  if position_taken?(board, index) == true
+  board.each {|i| }
+
+
      return false
   end
 end
