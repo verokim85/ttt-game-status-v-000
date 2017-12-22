@@ -37,6 +37,6 @@ def full(board)
   board.each {|i| }
   index = i
   if position_taken?(board, index) == "X" || position_taken?(board, index) == "O"
-     return false
+     return true
   end
 end
